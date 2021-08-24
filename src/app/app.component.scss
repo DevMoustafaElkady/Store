@@ -1,0 +1,26 @@
+mat-sidenav {
+  width: 200px;
+  height: 100vh;
+  background-color: rgb(245, 244, 244);
+}
+
+mat-sidenav-content {
+  height: 100vh;
+}
+
+/* Side Avatar */
+.sideAvatar {
+  background-color: #f1fdff;
+  padding: 7px 10px;
+  img {
+    width: 20%;
+  }
+  .avatarName {
+    margin-left: 10px;
+  }
+
+  i {
+    margin-left: 10px;
+  }
+}
+

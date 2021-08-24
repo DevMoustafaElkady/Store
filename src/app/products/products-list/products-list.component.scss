@@ -1,0 +1,39 @@
+$mainColor: #3f51b5;
+.products-list {
+  padding: 50px 0;
+
+  .card {
+    padding: 10px 3px;
+    width: 100% !important;
+
+    h5 {
+      color: #2d2d2d;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .card-text {
+      color: #787878;
+    }
+
+    .card-price {
+      color: $mainColor;
+      display: block;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .card-category {
+      color: #7c7c7c;
+      margin-left: 5px;
+      margin-top: 5px;
+      display: block;
+      font-size: 12px;
+    }
+
+    a {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+}
